@@ -61,7 +61,7 @@ public class PlotCommit<L extends PlotLane> extends RevCommit {
 
 	static final Ref[] NO_REFS = {};
 
-	PlotLane[] passingLanes;
+	public PlotLane[] passingLanes;
 
 	PlotLane lane;
 
